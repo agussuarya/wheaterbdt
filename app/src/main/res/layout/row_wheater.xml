@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_weight="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textSize="24sp"
+        android:id="@+id/tvCuaca"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sunday"
+            android:textSize="15sp"
+            android:id="@+id/tvTime"
+            />
+
+        <TextView
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textSize="15sp"
+            android:id="@+id/tvMinTemp"
+            />
+
+        <TextView
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="16"
+            android:textSize="15sp"
+            android:id="@+id/tvMaxTemp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
